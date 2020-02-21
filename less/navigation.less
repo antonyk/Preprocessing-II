@@ -19,11 +19,19 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     ul {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       width: 100%;
+
+      @media @mobile {
+        justify-content: space-evenly;
+      }
       // border: 0.5px solid red;
       // justify-content: space-around;
     }
