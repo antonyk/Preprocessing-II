@@ -358,11 +358,6 @@ img {
   width: 100%;
   padding-right: 1%;
 }
-.container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-}
 header {
   width: 100%;
   border-bottom: 2px dashed silver;
@@ -449,4 +444,17 @@ header nav li {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #17A2B8;
+  color: white;
+  width: 80%;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 1px grey;
 }

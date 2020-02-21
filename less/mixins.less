@@ -53,3 +53,17 @@
   justify-content: space-between;
 }
 
+
+.btn-div(@color, @bg-color, @width) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: @bg-color;
+  color: @color;
+  width: @width;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 1px grey;
+}
