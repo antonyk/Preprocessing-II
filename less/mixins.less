@@ -12,7 +12,7 @@
 
   .content-card-horizontal {
     .content-card-common-styles();
-    width: percentage(floor(100 / @columns));
+    width: percentage(floor(100 / @columns)/100);
 
     .card-img {
       width: 48%;
@@ -29,7 +29,7 @@
 
   .content-card-vertical {
     .content-card-common-styles();
-    width: percentage(floor(100 / @columns));
+    width: percentage(floor(100 / @columns)/100);
 
     .card-img {
       width: 100%;
@@ -52,3 +52,4 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+

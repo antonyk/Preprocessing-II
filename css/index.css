@@ -181,7 +181,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 10000%;
+  width: 100%;
 }
 .card-container-one-col .content-card-horizontal .card-img {
   width: 48%;
@@ -196,7 +196,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 10000%;
+  width: 100%;
 }
 .card-container-one-col .content-card-vertical .card-img {
   width: 100%;
@@ -219,7 +219,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 5000%;
+  width: 50%;
 }
 .card-container-two-col .content-card-horizontal .card-img {
   width: 48%;
@@ -234,7 +234,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 5000%;
+  width: 50%;
 }
 .card-container-two-col .content-card-vertical .card-img {
   width: 100%;
@@ -257,7 +257,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 3300%;
+  width: 33%;
 }
 .card-container-three-col .content-card-horizontal .card-img {
   width: 48%;
@@ -272,7 +272,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 3300%;
+  width: 33%;
 }
 .card-container-three-col .content-card-vertical .card-img {
   width: 100%;
@@ -295,7 +295,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 2500%;
+  width: 25%;
 }
 .card-container-four-col .content-card-horizontal .card-img {
   width: 48%;
@@ -310,7 +310,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 2500%;
+  width: 25%;
 }
 .card-container-four-col .content-card-vertical .card-img {
   width: 100%;
@@ -333,7 +333,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 2000%;
+  width: 20%;
 }
 .card-container-five-col .content-card-horizontal .card-img {
   width: 48%;
@@ -348,7 +348,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 2000%;
+  width: 20%;
 }
 .card-container-five-col .content-card-vertical .card-img {
   width: 100%;
@@ -357,6 +357,41 @@ img {
 .card-container-five-col .content-card-vertical .card-text {
   width: 100%;
   padding-right: 1%;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  border-bottom: 2px dashed silver;
+}
+header nav {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  border: 0.5px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  width: 200px;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+header nav li {
+  padding: 0 5%;
+}
+.menu-link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #212529;
 }
 .footer {
   width: 100%;
