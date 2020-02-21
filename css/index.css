@@ -168,6 +168,196 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.card-container-one-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-one-col img {
+  border-radius: 10px;
+}
+.card-container-one-col .content-card-horizontal {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 10000%;
+}
+.card-container-one-col .content-card-horizontal .card-img {
+  width: 48%;
+  padding-left: 1%;
+}
+.card-container-one-col .content-card-horizontal .card-text {
+  width: 48%;
+  padding-right: 1%;
+}
+.card-container-one-col .content-card-vertical {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 10000%;
+}
+.card-container-one-col .content-card-vertical .card-img {
+  width: 100%;
+  padding-left: 1%;
+}
+.card-container-one-col .content-card-vertical .card-text {
+  width: 100%;
+  padding-right: 1%;
+}
+.card-container-two-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-two-col img {
+  border-radius: 10px;
+}
+.card-container-two-col .content-card-horizontal {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 5000%;
+}
+.card-container-two-col .content-card-horizontal .card-img {
+  width: 48%;
+  padding-left: 1%;
+}
+.card-container-two-col .content-card-horizontal .card-text {
+  width: 48%;
+  padding-right: 1%;
+}
+.card-container-two-col .content-card-vertical {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 5000%;
+}
+.card-container-two-col .content-card-vertical .card-img {
+  width: 100%;
+  padding-left: 1%;
+}
+.card-container-two-col .content-card-vertical .card-text {
+  width: 100%;
+  padding-right: 1%;
+}
+.card-container-three-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-three-col img {
+  border-radius: 10px;
+}
+.card-container-three-col .content-card-horizontal {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 3300%;
+}
+.card-container-three-col .content-card-horizontal .card-img {
+  width: 48%;
+  padding-left: 1%;
+}
+.card-container-three-col .content-card-horizontal .card-text {
+  width: 48%;
+  padding-right: 1%;
+}
+.card-container-three-col .content-card-vertical {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 3300%;
+}
+.card-container-three-col .content-card-vertical .card-img {
+  width: 100%;
+  padding-left: 1%;
+}
+.card-container-three-col .content-card-vertical .card-text {
+  width: 100%;
+  padding-right: 1%;
+}
+.card-container-four-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-four-col img {
+  border-radius: 10px;
+}
+.card-container-four-col .content-card-horizontal {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 2500%;
+}
+.card-container-four-col .content-card-horizontal .card-img {
+  width: 48%;
+  padding-left: 1%;
+}
+.card-container-four-col .content-card-horizontal .card-text {
+  width: 48%;
+  padding-right: 1%;
+}
+.card-container-four-col .content-card-vertical {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 2500%;
+}
+.card-container-four-col .content-card-vertical .card-img {
+  width: 100%;
+  padding-left: 1%;
+}
+.card-container-four-col .content-card-vertical .card-text {
+  width: 100%;
+  padding-right: 1%;
+}
+.card-container-five-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container-five-col img {
+  border-radius: 10px;
+}
+.card-container-five-col .content-card-horizontal {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 2000%;
+}
+.card-container-five-col .content-card-horizontal .card-img {
+  width: 48%;
+  padding-left: 1%;
+}
+.card-container-five-col .content-card-horizontal .card-text {
+  width: 48%;
+  padding-right: 1%;
+}
+.card-container-five-col .content-card-vertical {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 2000%;
+}
+.card-container-five-col .content-card-vertical .card-img {
+  width: 100%;
+  padding-left: 1%;
+}
+.card-container-five-col .content-card-vertical .card-text {
+  width: 100%;
+  padding-right: 1%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

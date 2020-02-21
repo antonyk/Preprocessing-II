@@ -1,1 +1,54 @@
 // Mixins in here
+
+
+.card-container(@columns) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  img {
+    border-radius: 10px;
+  }
+
+  .content-card-horizontal {
+    .content-card-common-styles();
+    width: percentage(floor(100 / @columns));
+
+    .card-img {
+      width: 48%;
+      padding-left: 1%;
+  
+    }
+
+    .card-text {
+      width: 48%;
+      padding-right: 1%;
+    }
+
+  }
+
+  .content-card-vertical {
+    .content-card-common-styles();
+    width: percentage(floor(100 / @columns));
+
+    .card-img {
+      width: 100%;
+      padding-left: 1%;
+  
+    }
+
+    .card-text {
+      width: 100%;
+      padding-right: 1%;
+    }
+
+  }
+}
+  
+// styles to apply to both card types
+.content-card-common-styles() {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
